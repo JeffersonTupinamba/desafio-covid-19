@@ -1,0 +1,142 @@
+
+body {
+    background-color: rgb(180, 150, 150);
+    font-family: sans-serif;
+}
+
+/* id do cabecalho */
+
+#cabecalho {
+background-color: rgb(163, 22, 22);
+border: black 1px solid;
+border-radius: 10px;
+padding-left: 200px;
+margin-bottom: 30px;
+box-shadow: black 2px 2px 5px;
+}
+
+
+
+#cabecalhoContato {
+background-color:  rgb(163, 22, 22);
+border: black 1px solid;
+border-radius: 10px;
+padding-left: 300px;
+margin-bottom: 30px;
+box-shadow: black 2px 2px 5px;
+}
+
+/* id do conteudo */
+
+#conteudo{
+background-color: wheat;
+margin-left: 5%;
+margin-right: 5%;
+padding: 2%;
+
+}
+
+/* atributos dos links do menu */
+
+a { 
+color: blue; 
+text-decoration: unset;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+
+/* id dos links */
+
+#navbar{
+display: flex;
+justify-content: space-between;
+margin-bottom: 30px;
+
+}
+
+
+
+form{
+    font-size: 16px;
+    background: rgba(158, 44, 44, 0.623);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1px 10px 10px 10px ;
+}
+
+h2{
+    color: black;
+}
+
+input, textarea{
+    width: 470px;
+    padding: 10px;
+}
+
+.enviar input{
+    background-color: rgb(128, 26, 0);
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    box-shadow: rgb(104, 88, 96) 2px 2px 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.enviar input:hover{
+    background: rgb(59, 116, 51);
+}
+
+textarea{
+    width: 470px;
+    height: 120px;
+    line-height: 20px;
+}
+
+
+
+#rodape{
+    display: flex;
+    background-color: rgba(160, 51, 51, 0.788);
+    justify-content:  space-between;
+    margin-top: 30px;
+
+}
+
+#redeSociais{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+
+.rede{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#email{
+    margin-right: 50px;
+}
+
+#receba{
+    color: white;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: gray;
+    width: 60px;
+    height: 30px;
+    border: black(105, 1, 1) 1px solid;
+    color: rgb(243, 243, 243);
+    font-size: 15px;
+    box-shadow: black 2px 2px 5px ;
+}
